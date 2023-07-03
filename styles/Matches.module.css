@@ -1,0 +1,42 @@
+.matches-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.chat-window-placeholder {
+  font-family: "poppins";
+}
+.matches-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.match-list {
+  /* flex: 0 0 30%; */
+  width: 60%;
+}
+
+.chat-window-container {
+  flex: 0 0 70%;
+}
+
+.chat-window h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .matches-layout {
+    flex-direction: column;
+  }
+
+  .match-list,
+  .chat-window-container {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

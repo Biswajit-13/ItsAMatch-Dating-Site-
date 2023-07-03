@@ -1,0 +1,33 @@
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'poppins',Arial, Helvetica, sans-serif;
+  }
+  
+  .button-container button {
+    background-color: #f42b7c;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    font-family: 'poppins';
+  }
+  
+  .button-container button:hover {
+    background-color: #f971a7;
+  }
+  .button-container button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  

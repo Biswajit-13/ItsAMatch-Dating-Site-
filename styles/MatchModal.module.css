@@ -1,0 +1,82 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  font-family: "poppins",Arial, Helvetica, sans-serif;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: "poppins",Arial, Helvetica, sans-serif;
+}
+
+.modal-body {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-family: "poppins",Arial, Helvetica, sans-serif;
+}
+
+.user-card {
+  margin: 0 10px;
+  font-family: "poppins",Arial, Helvetica, sans-serif;
+}
+
+.user-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.heart-emoji {
+  font-size: 24px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.message-button {
+  background-color: #ff416c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "poppins",Arial, Helvetica, sans-serif;
+}

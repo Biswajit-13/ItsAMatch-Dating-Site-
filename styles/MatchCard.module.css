@@ -1,0 +1,33 @@
+.matchCard {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  font-family: "poppins",Arial, Helvetica, sans-serif;
+}
+
+.profilePic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.details {
+  flex-grow: 1;
+}
+
+.name {
+  margin: 0;
+  font-size: 16px;
+  /* font-weight: bold; */
+  font-weight: 600;
+  color: #333;
+  /* font-family: "poppins",Arial, Helvetica, sans-serif; */
+}
+
+
